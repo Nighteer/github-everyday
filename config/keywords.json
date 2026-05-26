@@ -1,0 +1,23 @@
+{
+  "include": [
+    "ai",
+    "llm",
+    "gpt",
+    "agent",
+    "rag",
+    "embedding",
+    "diffusion",
+    "multimodal",
+    "openai",
+    "anthropic"
+  ],
+  "exclude": [
+    "awesome",
+    "course",
+    "tutorial",
+    "interview",
+    "job",
+    "leetcode",
+    "prompt-collection"
+  ]
+}
