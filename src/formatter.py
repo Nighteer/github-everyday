@@ -4,6 +4,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 from src.models import Repository
+from src.summarizer import DailySummary
 
 
 def build_markdown_report(repositories: list[Repository], timezone_name: str) -> str:
@@ -29,4 +30,28 @@ def build_markdown_report(repositories: list[Repository], timezone_name: str) ->
             )
         )
         lines.append("")
+    return "\n".join(lines).strip()
+
+
+def build_summary_report(summary: DailySummary, repositories_by_name: dict[str, Repository], timezone_name: str) -> str:
+    today = datetime.now(ZoneInfo(timezone_name)).strftime("%Y-%m-%d")
+    lines = [f"## {today} {summary.title}", summary.overview, ""]
+    if not summary.items:
+        lines.append("今天没有值得推送的项目。")
+        return "\n".join(lines).strip()
+
+    for index, item in enumerate(summary.items, start=1):
+        repository = repositories_by_name.get(item.full_name)
+        if repository is None:
+            continue
+        lines.extend(
+            [
+                f"{index}. **{repository.full_name}** | {item.category}",
+                f"   - 总结：{item.summary}",
+                f"   - 关注点：{item.reason}",
+                f"   - Stars：{repository.stars} | Language：{repository.language}",
+                f"   - 链接：{repository.html_url}",
+                "",
+            ]
+        )
     return "\n".join(lines).strip()

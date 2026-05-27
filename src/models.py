@@ -23,6 +23,7 @@ class Repository:
     is_archived: bool
     default_branch: str
     owner_login: str
+    readme_excerpt: str = ""
 
     @classmethod
     def from_api_item(cls, item: dict[str, Any]) -> "Repository":
@@ -43,6 +44,7 @@ class Repository:
             is_archived=bool(item.get("archived")),
             default_branch=item.get("default_branch") or "main",
             owner_login=item["owner"]["login"],
+            readme_excerpt="",
         )
 
 

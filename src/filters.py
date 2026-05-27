@@ -52,6 +52,8 @@ def _contains_excluded_text(repository: Repository, exclude_keywords: list[str])
 
 
 def _looks_like_ai_project(repository: Repository, include_keywords: list[str]) -> bool:
+    if not include_keywords:
+        return True
     combined = " ".join([repository.name, repository.description, " ".join(repository.topics)]).lower()
     return any(keyword.lower() in combined for keyword in include_keywords)
 

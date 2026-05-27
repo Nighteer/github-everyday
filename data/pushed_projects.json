@@ -1,1 +1,146 @@
-{}
+{
+  "JasonLam08/cursor_agent_status_light": {
+    "first_seen_at": "2026-05-26T08:21:55Z",
+    "html_url": "https://github.com/JasonLam08/cursor_agent_status_light",
+    "last_pushed_at": "2026-05-26T08:21:55Z",
+    "stars_when_pushed": 76
+  },
+  "NousResearch/hermes-agent": {
+    "first_seen_at": "2026-05-26T08:21:55Z",
+    "html_url": "https://github.com/NousResearch/hermes-agent",
+    "last_pushed_at": "2026-05-26T08:21:55Z",
+    "stars_when_pushed": 167814
+  },
+  "Ronesfe/Polymarket-Automated-Trading-Bot": {
+    "first_seen_at": "2026-05-26T08:23:55Z",
+    "html_url": "https://github.com/Ronesfe/Polymarket-Automated-Trading-Bot",
+    "last_pushed_at": "2026-05-26T08:23:55Z",
+    "stars_when_pushed": 41
+  },
+  "Significant-Gravitas/AutoGPT": {
+    "first_seen_at": "2026-05-26T08:23:55Z",
+    "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "last_pushed_at": "2026-05-26T08:23:55Z",
+    "stars_when_pushed": 184557
+  },
+  "affaan-m/ECC": {
+    "first_seen_at": "2026-05-26T08:06:10Z",
+    "html_url": "https://github.com/affaan-m/ECC",
+    "last_pushed_at": "2026-05-26T08:06:10Z",
+    "stars_when_pushed": 193100
+  },
+  "anomalyco/opencode": {
+    "first_seen_at": "2026-05-26T08:21:55Z",
+    "html_url": "https://github.com/anomalyco/opencode",
+    "last_pushed_at": "2026-05-26T08:21:55Z",
+    "stars_when_pushed": 165423
+  },
+  "foru17/make-x-great-again": {
+    "first_seen_at": "2026-05-26T08:21:55Z",
+    "html_url": "https://github.com/foru17/make-x-great-again",
+    "last_pushed_at": "2026-05-26T08:21:55Z",
+    "stars_when_pushed": 84
+  },
+  "freeCodeCamp/freeCodeCamp": {
+    "first_seen_at": "2026-05-26T07:31:07Z",
+    "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "last_pushed_at": "2026-05-26T07:31:07Z",
+    "stars_when_pushed": 445421
+  },
+  "huggingface/transformers": {
+    "first_seen_at": "2026-05-26T08:23:55Z",
+    "html_url": "https://github.com/huggingface/transformers",
+    "last_pushed_at": "2026-05-26T08:23:55Z",
+    "stars_when_pushed": 160959
+  },
+  "langchain-ai/langchain": {
+    "first_seen_at": "2026-05-26T08:23:55Z",
+    "html_url": "https://github.com/langchain-ai/langchain",
+    "last_pushed_at": "2026-05-26T08:23:55Z",
+    "stars_when_pushed": 137677
+  },
+  "langflow-ai/langflow": {
+    "first_seen_at": "2026-05-26T08:21:55Z",
+    "html_url": "https://github.com/langflow-ai/langflow",
+    "last_pushed_at": "2026-05-26T08:21:55Z",
+    "stars_when_pushed": 148761
+  },
+  "langgenius/dify": {
+    "first_seen_at": "2026-05-26T08:21:55Z",
+    "html_url": "https://github.com/langgenius/dify",
+    "last_pushed_at": "2026-05-26T08:21:55Z",
+    "stars_when_pushed": 142667
+  },
+  "mitkox/SkillOpt": {
+    "first_seen_at": "2026-05-26T08:21:55Z",
+    "html_url": "https://github.com/mitkox/SkillOpt",
+    "last_pushed_at": "2026-05-26T08:21:55Z",
+    "stars_when_pushed": 37
+  },
+  "n8n-io/n8n": {
+    "first_seen_at": "2026-05-26T07:31:07Z",
+    "html_url": "https://github.com/n8n-io/n8n",
+    "last_pushed_at": "2026-05-26T07:31:07Z",
+    "stars_when_pushed": 189730
+  },
+  "obra/superpowers": {
+    "first_seen_at": "2026-05-26T07:31:07Z",
+    "html_url": "https://github.com/obra/superpowers",
+    "last_pushed_at": "2026-05-26T07:31:07Z",
+    "stars_when_pushed": 206956
+  },
+  "ohmyzsh/ohmyzsh": {
+    "first_seen_at": "2026-05-26T08:23:55Z",
+    "html_url": "https://github.com/ohmyzsh/ohmyzsh",
+    "last_pushed_at": "2026-05-26T08:23:55Z",
+    "stars_when_pushed": 187262
+  },
+  "ollama/ollama": {
+    "first_seen_at": "2026-05-26T08:23:55Z",
+    "html_url": "https://github.com/ollama/ollama",
+    "last_pushed_at": "2026-05-26T08:23:55Z",
+    "stars_when_pushed": 172333
+  },
+  "open-webui/open-webui": {
+    "first_seen_at": "2026-05-26T08:21:55Z",
+    "html_url": "https://github.com/open-webui/open-webui",
+    "last_pushed_at": "2026-05-26T08:21:55Z",
+    "stars_when_pushed": 138678
+  },
+  "openclaw/openclaw": {
+    "first_seen_at": "2026-05-26T07:31:07Z",
+    "html_url": "https://github.com/openclaw/openclaw",
+    "last_pushed_at": "2026-05-26T07:31:07Z",
+    "stars_when_pushed": 374711
+  },
+  "public-apis/public-apis": {
+    "first_seen_at": "2026-05-26T07:31:07Z",
+    "html_url": "https://github.com/public-apis/public-apis",
+    "last_pushed_at": "2026-05-26T07:31:07Z",
+    "stars_when_pushed": 437219
+  },
+  "realrossmanngroup/no_ai_slop_writing_rules": {
+    "first_seen_at": "2026-05-26T08:23:55Z",
+    "html_url": "https://github.com/realrossmanngroup/no_ai_slop_writing_rules",
+    "last_pushed_at": "2026-05-26T08:23:55Z",
+    "stars_when_pushed": 167
+  },
+  "tensorflow/tensorflow": {
+    "first_seen_at": "2026-05-26T07:31:07Z",
+    "html_url": "https://github.com/tensorflow/tensorflow",
+    "last_pushed_at": "2026-05-26T07:31:07Z",
+    "stars_when_pushed": 195273
+  },
+  "torvalds/linux": {
+    "first_seen_at": "2026-05-26T07:31:07Z",
+    "html_url": "https://github.com/torvalds/linux",
+    "last_pushed_at": "2026-05-26T07:31:07Z",
+    "stars_when_pushed": 234465
+  },
+  "ultraworkers/claw-code": {
+    "first_seen_at": "2026-05-26T07:31:07Z",
+    "html_url": "https://github.com/ultraworkers/claw-code",
+    "last_pushed_at": "2026-05-26T07:31:07Z",
+    "stars_when_pushed": 192538
+  }
+}

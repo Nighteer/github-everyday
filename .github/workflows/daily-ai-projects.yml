@@ -26,9 +26,13 @@ jobs:
       - name: Run daily job
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           NOTIFY_PROVIDER: ${{ vars.NOTIFY_PROVIDER }}
           MAX_PUSH_COUNT: ${{ vars.MAX_PUSH_COUNT }}
+          CANDIDATE_LIMIT: ${{ vars.CANDIDATE_LIMIT }}
+          README_FETCH_LIMIT: ${{ vars.README_FETCH_LIMIT }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
           MIN_STARS: ${{ vars.MIN_STARS }}
           CREATED_DAYS: ${{ vars.CREATED_DAYS }}
           PUSHED_DAYS: ${{ vars.PUSHED_DAYS }}
